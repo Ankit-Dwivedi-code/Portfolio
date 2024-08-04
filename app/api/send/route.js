@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import { Resend } from "resend";
 
 const resend = new Resend("re_iBaUX88Q_Q5cnTxYcsyqHAY81gUe14gAo");
-const toEmail = process.env.FROM_EMAIL;
+// const toEmail = process.env.FROM_EMAIL;
 
 export async function POST(req, res) {
   const { subject, message } = await req.json();
@@ -10,7 +10,7 @@ export async function POST(req, res) {
   try {
     const data = await resend.emails.send({
       from: 'onboarding@resend.dev',
-      to: [toEmail],
+      to: "ankitmentors141@gmail.com",
       subject: subject,
       react: (
         <div style={{ fontFamily: 'Arial, sans-serif', padding: '20px', backgroundColor: '#f9f9f9', color: '#333' }}>
