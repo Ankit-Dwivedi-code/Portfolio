@@ -61,7 +61,7 @@ const AboutSection = () => {
             I am a Full Stack Web Developer with a passion for creating and
             developing interactive and responsive web applications. I am working
             with MERN stack and NextJs.My passion for clean code and continuous learning
-            drives me to create impactful digital solutions.I'm excited to
+            drives me to create impactful digital solutions.I&apos;m excited to
             contribute my skills to impactful projects and to continue growing
             as a developer.
           </p>
