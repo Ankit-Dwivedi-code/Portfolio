@@ -20,24 +20,22 @@ const HeroSection = () => {
               Hello I am{" "}
             </span>
             <br />
-            <TypeAnimation
-              sequence={[
-                // Same substring at the start will only be typed out once, initially
-                "Ankit Dwivedi",
-                1000, // wait 1s before replacing "Mice" with "Hamsters"
-                "Web Developer",
-                1000,
-              ]}
-              wrapper="span"
-              speed={25}
-              repeat={Infinity}
-            />
+            <span className="inline-block">
+              <TypeAnimation
+                sequence={[
+                  "Ankit Dwivedi",
+                  1000,
+                  "Web Developer",
+                  1000,
+                ]}
+                wrapper="span"
+                speed={25}
+                repeat={Infinity}
+              />
+            </span>
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-6">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. In
-            perferendis reprehenderit tempore explicabo hic delectus odit magnam
-            provident nobis expedita. Possimus voluptate cumque porro itaque
-            consequuntur dicta ex, magnam molestiae?
+          I am a full stack web developer specializing in the MERN stack and Next.js. With over 25 completed projects, I have honed my skills in building responsive and secure web applications. I am currently pursuing a BSc in IT, which further enriches my technical knowledge and expertise.
           </p>
           <div>
           <Link
